@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.header {
+  width: 100%;
+  padding: 10px;
+}
+.header .title{
+  font-size: 55px;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  margin-top: 15px;
+  color: #ff0062;
+  text-shadow: 2px 2px 3px #fafaf4;
+  animation: player1 1s alternate infinite ease-in-out;
+}
+.content{
+  display: flex;
+  width: 100%;
+  max-width: 1300px;
+}
+.selection-personage{
+  width: 40%;
+  max-height: 550px;
+  margin: auto;
+  padding:10px;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.chosen-personage{
+  cursor: pointer;
+  margin: 5px;
+}
+.personages{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.chosen-personage{
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  position: relative;
+}
+.select{
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  padding: 2px;
+  color: #f00640;
+  font-weight: 700;
+  background-color: #14e070fd;
+  border-radius: 100%;
+}
+
+.chosen-personage:hover .tag::after{
+  content:'P1';
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  padding: 2px;
+  color: #f00640;
+  font-weight: 700;
+  background-color: #14e070fd;
+  border-radius: 100%;
+}
+
+.image{
+  width: 100px;
+  margin: 1px;
+  border-radius: 8px;
+}
+#big-personage-1 , #big-personage-2{
+  max-width: 300px;
+  width: 25%;
+  padding: 5px;
+  margin: 20px;
+  margin-top: -20px;
+  align-items: center;
+  text-align: center;
+}
+#image-player-1, #image-player-2{
+  width: 90%;
+  height: 90%;
+}
+#homer{
+  border: 2px solid #ff5100;
+  animation:  player1 .5s alternate infinite ease-in-out;
+
+}
+@keyframes  player1{
+  from{
+    filter: drop-shadow(0 0 0 #c20212)
+  }
+  to{
+    filter:drop-shadow(0 0 10px #faf8f8)
+  }
+  
+}
+#name-personage-1, #name-personage-2{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 22px;
+  text-align: center;
+  padding: 5px;
+  color: #f11355;
+  text-shadow: 2px  2px 3px #f8f6f7;
+  background-color: #0b8bf3;
+  border-radius: 8px;
+}
+
+.selecionado{
+ border: 2px solid #02f3d3;
+ transform: translate(-1% , -1%);
+ animation: neon .5s alternate infinite ease-in-out;
+}
+
+@keyframes neon{
+  from{
+    filter: drop-shadow(0 0 0 #09e3f3)
+  }
+  to{
+    filter:drop-shadow(0 0 10px #e6e4f0)
+  }
+ 
+}
