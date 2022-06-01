@@ -8,11 +8,13 @@
 
 
 # Desafio
-Esse desafio foi fazer uma tela de administrador de painel 
- <strong>DashboardAdmin</strong>. <br><br>
+Esse desafio foi fazer uma
+ <strong>Seleção de personagem</strong>. <br><br>
 
 # Tecnologias utilisadas: 
-REACT<br>
+- HTML
+- CSS
+- JS
 Framework ou linguagem que preferir
 
 # Como começar:
