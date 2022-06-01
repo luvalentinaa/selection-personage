@@ -1,11 +1,10 @@
 # Seleção de personagens dos Simpsons
 
 
-<h1>Selection Personas</h1>
 
-<a href="https://vercel.com/luvalentinaa/screen-dashboard-admin">Acesse em Vercel 🔗</a>
+<a href="">Acesse em Vercel 🔗</a>
  
-   <img src="desktop.png">
+   <img src="gif-simpsons.gif">
 
 
 # Desafio
@@ -27,8 +26,7 @@ Framework ou linguagem que preferir
 - Sua página deve ser responsiva<br>
 
 
-# Design:
-Modelo está disponível  `./design`<br>
+
 
 
 
